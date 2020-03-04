@@ -1,4 +1,5 @@
 #transformation function 
+#transform function of pytorch support PIL image format. 
 from torchvision import transforms
 preprocess = transforms.Compose([
         transforms.Resize(256),
